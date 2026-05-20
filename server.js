@@ -131,6 +131,6 @@ app.post('/api/upload', requireAdmin, upload.single('file'), (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`\nLocal website: http://localhost:${PORT}/index.html`);
-  console.log(`Admin panel:   http://localhost:${PORT}/admin.html`);
+  console.log(`Admin panel:    http://localhost:${PORT}/admin.html`);
   console.log(`Login: username=${ADMIN_USERNAME} password=${ADMIN_PASSWORD}\n`);
 });
