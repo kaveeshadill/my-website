@@ -10,7 +10,7 @@ const ROOT = __dirname;
 const CONFIG_PATH = path.join(ROOT, 'config.json');
 
 // Local admin login details - change these if you want
-const ADMIN_PASSWORD = 'admin';
+const ADMIN_USERNAME = 'admin';
 const ADMIN_PASSWORD = '20070801';
 const sessions = new Set();
 
